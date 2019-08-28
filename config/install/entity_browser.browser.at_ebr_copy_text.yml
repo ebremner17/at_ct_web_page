@@ -1,0 +1,41 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.at_view_ebr_copy_text
+  module:
+    - entity_browser_entity_form
+    - views
+name: at_ebr_copy_text
+label: 'Copy text'
+display: modal
+display_configuration:
+  width: '650'
+  height: '500'
+  link_text: 'Select entities'
+  auto_open: false
+selection_display: no_display
+selection_display_configuration: {  }
+widget_selector: tabs
+widget_selector_configuration: {  }
+widgets:
+  9f8d71e0-00d2-447e-8c89-f9bc8be9f6a0:
+    settings:
+      view: at_view_ebr_copy_text
+      view_display: entity_browser_1
+      submit_text: 'Select entities'
+      auto_select: false
+    uuid: 9f8d71e0-00d2-447e-8c89-f9bc8be9f6a0
+    weight: 1
+    label: View
+    id: view
+  602d3df1-df8b-44a1-a0b8-c6741575ab4a:
+    settings:
+      entity_type: at_et_embeddable_content
+      bundle: uw_eb_copy_text
+      form_mode: default
+      submit_text: 'Save entity'
+    uuid: 602d3df1-df8b-44a1-a0b8-c6741575ab4a
+    weight: 2
+    label: Create
+    id: entity_form

@@ -1,0 +1,61 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.at_ct_web_page.layout_builder__layout
+    - node.type.at_ct_web_page
+  module:
+    - layout_builder
+    - layout_builder_restrictions
+    - layout_discovery
+    - user
+third_party_settings:
+  layout_builder:
+    allow_custom: true
+    enabled: true
+    sections:
+      -
+        layout_id: layout_onecol
+        layout_settings: {  }
+        components:
+          a7bb24ef-e105-42c5-82e2-905839d6e2e4:
+            uuid: a7bb24ef-e105-42c5-82e2-905839d6e2e4
+            region: content
+            configuration:
+              label_display: '0'
+              context_mapping:
+                entity: layout_builder.entity
+              id: 'extra_field_block:node:at_ct_web_page:links'
+            additional: {  }
+            weight: 0
+        third_party_settings: {  }
+  layout_builder_restrictions:
+    entity_view_mode_restriction:
+      allowed_blocks:
+        Content: {  }
+        'Content fields':
+          - 'field_block:node:at_ct_web_page:title'
+        'Custom block types': {  }
+        Forms: {  }
+        Help: {  }
+        'Inline blocks': {  }
+        'Lists (Views)':
+          - 'views_block:at_view_cover_page_slideshow-block_1'
+        Menus: {  }
+        System: {  }
+        User: {  }
+        'User fields': {  }
+        core: {  }
+      allowed_layouts: {  }
+id: node.at_ct_web_page.default
+targetEntityType: node
+bundle: at_ct_web_page
+mode: default
+content:
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden:
+  layout_builder__layout: true
