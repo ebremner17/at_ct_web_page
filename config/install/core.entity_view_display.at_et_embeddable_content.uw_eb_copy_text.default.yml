@@ -1,0 +1,25 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - eck.eck_type.at_et_embeddable_content.uw_eb_copy_text
+    - field.field.at_et_embeddable_content.uw_eb_copy_text.field_at_copy_text
+  module:
+    - text
+id: at_et_embeddable_content.uw_eb_copy_text.default
+targetEntityType: at_et_embeddable_content
+bundle: uw_eb_copy_text
+mode: default
+content:
+  field_at_copy_text:
+    weight: 0
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
+hidden:
+  changed: true
+  created: true
+  title: true
+  uid: true

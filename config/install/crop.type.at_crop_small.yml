@@ -1,0 +1,11 @@
+langcode: en
+status: true
+dependencies: {  }
+label: Small
+id: at_crop_small
+description: 'Crop for small'
+aspect_ratio: '480:250'
+soft_limit_width: 480
+soft_limit_height: 250
+hard_limit_width: null
+hard_limit_height: null

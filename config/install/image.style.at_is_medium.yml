@@ -1,0 +1,16 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - crop.type.at_crop_medium
+  module:
+    - crop
+name: at_is_medium
+label: 'AT Medium'
+effects:
+  498dbd66-aba6-4007-b272-0ebe0397adad:
+    uuid: 498dbd66-aba6-4007-b272-0ebe0397adad
+    id: crop_crop
+    weight: 1
+    data:
+      crop_type: at_crop_medium

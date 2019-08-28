@@ -32,6 +32,7 @@ third_party_settings:
   layout_builder_restrictions:
     entity_view_mode_restriction:
       allowed_blocks:
+        'Chaos Tools': {  }
         Content: {  }
         'Content fields':
           - 'field_block:node:at_ct_web_page:title'
@@ -39,8 +40,7 @@ third_party_settings:
         Forms: {  }
         Help: {  }
         'Inline blocks': {  }
-        'Lists (Views)':
-          - 'views_block:at_view_cover_page_slideshow-block_1'
+        'Lists (Views)': {  }
         Menus: {  }
         System: {  }
         User: {  }

@@ -1,0 +1,16 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - crop.type.at_crop_small
+  module:
+    - crop
+name: at_is_small
+label: 'AT small'
+effects:
+  a1e1c917-33a2-4b7f-a167-14d703dd1688:
+    uuid: a1e1c917-33a2-4b7f-a167-14d703dd1688
+    id: crop_crop
+    weight: 1
+    data:
+      crop_type: at_crop_small

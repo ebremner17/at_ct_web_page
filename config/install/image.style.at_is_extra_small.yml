@@ -1,0 +1,16 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - crop.type.at_crop_extra_small
+  module:
+    - crop
+name: at_is_extra_small
+label: 'AT extra small'
+effects:
+  87e6e9a7-a2a5-4148-beed-bcafad4368df:
+    uuid: 87e6e9a7-a2a5-4148-beed-bcafad4368df
+    id: crop_crop
+    weight: 1
+    data:
+      crop_type: at_crop_extra_small

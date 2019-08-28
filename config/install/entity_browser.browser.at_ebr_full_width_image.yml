@@ -2,12 +2,12 @@ langcode: en
 status: true
 dependencies:
   config:
-    - views.view.at_view_ebr_copy_text
+    - views.view.at_view_ebr_full_width_image
   module:
     - entity_browser_entity_form
     - views
-name: at_ebr_copy_text
-label: 'Copy text'
+name: at_ebr_full_width_image
+label: 'Full width image'
 display: modal
 display_configuration:
   width: '650'
@@ -19,23 +19,23 @@ selection_display_configuration: {  }
 widget_selector: tabs
 widget_selector_configuration: {  }
 widgets:
-  9f8d71e0-00d2-447e-8c89-f9bc8be9f6a0:
+  7c302a4f-5748-470c-b38f-d37e38c22882:
     settings:
-      view: at_view_ebr_copy_text
+      view: at_view_ebr_full_width_image
       view_display: entity_browser_1
-      submit_text: 'Select text'
+      submit_text: 'Select images'
       auto_select: false
-    uuid: 9f8d71e0-00d2-447e-8c89-f9bc8be9f6a0
+    uuid: 7c302a4f-5748-470c-b38f-d37e38c22882
     weight: 1
     label: View
     id: view
-  8e173309-e0c7-4e74-a6ae-f97e0c2329a1:
+  93f1ffb9-195f-4467-9aaf-f2f62db10494:
     settings:
-      entity_type: at_et_embeddable_content
-      bundle: uw_eb_copy_text
+      entity_type: media
+      bundle: at_mt_full_width_image
       form_mode: default
       submit_text: 'Save entity'
-    uuid: 8e173309-e0c7-4e74-a6ae-f97e0c2329a1
+    uuid: 93f1ffb9-195f-4467-9aaf-f2f62db10494
     weight: 2
-    label: Create
+    label: Upload
     id: entity_form

@@ -1,0 +1,16 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - crop.type.at_crop_large
+  module:
+    - crop
+name: at_is_large
+label: 'AT Large'
+effects:
+  9af2dd79-2ca9-45bd-a802-a934edf39d3b:
+    uuid: 9af2dd79-2ca9-45bd-a802-a934edf39d3b
+    id: crop_crop
+    weight: 1
+    data:
+      crop_type: at_crop_large

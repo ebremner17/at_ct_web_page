@@ -1,0 +1,41 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - image.style.at_is_extra_large
+    - image.style.at_is_extra_small
+    - image.style.at_is_large
+    - image.style.at_is_medium
+    - image.style.at_is_small
+  theme:
+    - arrowtrade
+id: at_ris_full_width
+label: 'AT full width'
+image_style_mappings:
+  -
+    breakpoint_id: arrowtrade.xlarge
+    multiplier: 1x
+    image_mapping_type: image_style
+    image_mapping: at_is_extra_large
+  -
+    breakpoint_id: arrowtrade.large
+    multiplier: 1x
+    image_mapping_type: image_style
+    image_mapping: at_is_large
+  -
+    breakpoint_id: arrowtrade.medium
+    multiplier: 1x
+    image_mapping_type: image_style
+    image_mapping: at_is_medium
+  -
+    breakpoint_id: arrowtrade.small
+    multiplier: 1x
+    image_mapping_type: image_style
+    image_mapping: at_is_small
+  -
+    breakpoint_id: arrowtrade.xsmall
+    multiplier: 1x
+    image_mapping_type: image_style
+    image_mapping: at_is_extra_small
+breakpoint_group: arrowtrade
+fallback_image_style: at_is_large

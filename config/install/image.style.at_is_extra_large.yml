@@ -1,0 +1,16 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - crop.type.at_crop_extra_large
+  module:
+    - crop
+name: at_is_extra_large
+label: 'AT Extra large'
+effects:
+  751efcb5-3165-40f6-9dac-8f6ab23302d4:
+    uuid: 751efcb5-3165-40f6-9dac-8f6ab23302d4
+    id: crop_crop
+    weight: 1
+    data:
+      crop_type: at_crop_extra_large

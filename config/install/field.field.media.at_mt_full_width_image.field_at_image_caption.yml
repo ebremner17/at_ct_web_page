@@ -1,0 +1,20 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.media.field_at_image_caption
+    - media.type.at_mt_full_width_image
+  module:
+    - text
+id: media.at_mt_full_width_image.field_at_image_caption
+field_name: field_at_image_caption
+entity_type: media
+bundle: at_mt_full_width_image
+label: Caption
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text

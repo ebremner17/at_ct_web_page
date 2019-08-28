@@ -3,19 +3,26 @@ description: 'Provides Web page content type and related configuration. Arrow tr
 type: module
 core: 8.x
 dependencies:
+  - crop
   - eck
   - entity_browser
   - entity_browser_block
   - entity_browser_entity_form
   - field
+  - file
+  - image
+  - image_widget_crop
+  - inline_entity_form
   - layout_builder
+  - layout_builder_modal
   - layout_builder_restrictions
   - layout_discovery
-  - layout_builder_modal
-  - inline_entity_form
+  - media
   - menu_ui
   - node
   - path
   - pathauto
+  - responsive_image
+  - text
   - user
   - views
